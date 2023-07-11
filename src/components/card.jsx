@@ -9,7 +9,7 @@ function Card() {
             <div className="card-content">
                 <div className="left">
                     <h2 className="">Зимняя распродажа</h2>
-                    <h1 className="">СКИДКИ ДО 90%</h1>
+                    
                     <p className="">
                         Lorem ipsum dolor sit amet, consectetur adipiscing
                          elit. Morbi urna sem, faucibus at porttitor
