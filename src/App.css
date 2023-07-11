@@ -1,38 +1,233 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+    width: 1117px;
+    margin: 0 auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header-content {
+    display: flex;
+    justify-content: space-between;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+header {
+    padding-top: 72px;
+    background: #F9F6F1;
 }
 
-.App-link {
-  color: #61dafb;
+.header-link {
+    color: #212121;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header-link:not(:last-child) {
+    margin-right: 50px;
+}
+
+.card{
+    background: #F9F6F1;
+    padding-top: 29px;
+}
+
+.card-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left h2{
+    font-weight: 400;
+    font-size: 30px;
+    color: #000000;
+}
+
+.left h1{
+    font-weight: 700;
+    font-size: 55px;
+    color: #000000;
+    margin-top: 45px;
+    margin-bottom: 25px;
+}
+
+.left p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 25px;
+    width: 514px;
+}
+
+.left button{
+    border: none;
+    background: #D7B399;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    width: 240px;
+    height: 55px;
+}
+
+.right h2{
+    text-decoration: line-through;
+    text-align: right;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.right h1{
+    color:#D84033;
+    font-weight: 700;
+    font-size: 42px;
+    text-align: right;
+    margin-top: 45px;
+}
+
+.delever{
+    background: #212121;
+}
+
+.delever h1{
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.delever span{
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.delever h2{
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 300;
+    font-size: 21px;
+    margin-top: 23px;
+}
+
+.develer-div{
+    padding-top: 85px;
+    padding-bottom: 69px;
+}
+
+.discount{
+    background: #F9F6F1;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.discount-div{
+    display: flex;
+}
+
+.discount h1{
+    font-weight: 700;
+    font-size: 30px;
+    color: #000000;
+}
+
+.discount input{
+    margin-left: 60px;
+    border: 1px solid #000000;
+    background: #F9F6F1;
+    width: 235px;
+    height: 40px;
+    padding-left: 20px;
+}
+
+.btn-dis{
+    border: none;
+    background: #D7B399;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    width: 185px;
+    height: 40px;
+    margin-left: 41px;
+}
+
+.footer{
+    background: #212121;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-itme{
+    display: flex;
+    flex-direction: column;
+    vertical-align: top;
+}
+
+.footer-itme:nth-child(1){
+    margin-right: 84px;
+}
+
+.footer-itme:nth-child(2){
+    margin-right: 76px;
+}
+
+.footer-itme:nth-child(3){
+    margin-right: 53px;
+}
+
+.footer-itme h3{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+
+.footer-itme a{
+    color: #CBCFD4;
+    text-decoration: none;  
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* .vk{
+    background-image: url(img/vk.png);
+    background-repeat: no-repeat;
+    padding-left: 29px;
+}
+
+.face{
+    background-image: url(img/face.png);
+    background-repeat: no-repeat;
+    padding-left: 29px;
+}
+
+.insta{
+    background-image: url(img/insta.png);
+    background-repeat: no-repeat;
+    padding-left: 29px;
+} */
+
+.policy{
+    background-color: #ffffff;
+    padding-top: 30px;
+}
+
+.policy-content p{
+    font-weight: 400;
+    font-size: 14px;
+    color: #212121;
+}
+
+.policy-content{
+    display: flex;
+    justify-content: space-between;
 }
